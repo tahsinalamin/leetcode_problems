@@ -1,5 +1,6 @@
 """
-Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+Author: Sikder Tahsin Al-Amin
+Problem: Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
 Input: [1,2,3]
 Output: [1,2,4]
 """
@@ -15,7 +16,3 @@ def plusOne(digits):
         list_number.append(int(i))
 
     return list_number
-
-
-digits =[1,2,3]
-print("output:",plusOne(digits))
