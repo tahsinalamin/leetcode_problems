@@ -1,5 +1,6 @@
 """
-Given a binary tree, find its maximum depth.
+Author: Sikder Tahsin Al-Amin
+Problem: Given a binary tree, find its maximum depth.
 input: [3,9,20,null,null,15,7]
 output: 3
 """
@@ -19,12 +20,3 @@ class TreeNode:
             return l_depth +1
         else:
             return r_depth +1 
-
-
-
-root = TreeNode(1)
-#root.left  = TreeNode(None)
-root.right = TreeNode(2)
-root.right.left  = TreeNode(3)
-obj = TreeNode(root)
-print("output:",obj.maxDepth(root))
