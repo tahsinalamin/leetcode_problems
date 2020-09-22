@@ -1,5 +1,6 @@
 """
-Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+Author: Sikder Tahsin Al-Amin
+Problem: Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
 Input: 5
 Output:
      [1],
@@ -20,7 +21,3 @@ def generate(numRows):
                 temp.append(1)
         pascal.append(temp)
     return pascal
-
-
-numRows = 5
-print("output:",generate(numRows))
