@@ -1,5 +1,6 @@
 """
-Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+Author: Sikder Tahsin Al-Amin
+Problem: Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
 For example, this binary tree [1,2,2,3,4,4,3] is symmetric
 """
 class TreeNode:
@@ -25,5 +26,4 @@ class Solution:
         inner_valid = self.helper(a.right,a.left)
         return outer_valid and inner_valid
 
-obj=Solution()
 
