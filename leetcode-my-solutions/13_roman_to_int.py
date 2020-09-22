@@ -1,8 +1,10 @@
 """
-Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
+Author: Sikder Tahsin Al Amin
+Problem: Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
 Input: "III"
 Output: 3
 """
+## NOTE: View the solution from web and then implementd by me.
 
 def romanToInt(s):
     s=list(s)
@@ -44,7 +46,3 @@ def romanToInt(s):
             print("G")
         print(s[i],num)
     return num
-
-
-s="MMMCDXC"
-print("output:",romanToInt(s))
