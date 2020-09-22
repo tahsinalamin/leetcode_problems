@@ -1,5 +1,6 @@
 """
-Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1 ... n.
+Author: Sikder Tahsin Al-Amin
+Problem: Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1 ... n.
 """
 class TreeNode:
     def __init__(self, x):
@@ -26,11 +27,3 @@ class Solution:
                     node.right = r 
                     result.append(node)
         return result
-
-n = 3
-print("List of trees:")
-obj = Solution()
-output= obj.generateTrees(n)
-print(output)
-
-
