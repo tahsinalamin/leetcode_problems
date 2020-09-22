@@ -1,5 +1,6 @@
 """
-Given n, how many structurally unique BST's (binary search trees) that store values 1 ... n?
+Author: Sikder Tahsin Al-Amin
+Problem: Given n, how many structurally unique BST's (binary search trees) that store values 1 ... n?
 Input: 3
 Output: 5
 """
@@ -15,7 +16,3 @@ def factorial(n):
         return 1
     else:
         return n*factorial(n-1) 
-
-
-n = 3
-print("output:",numTrees(n))
