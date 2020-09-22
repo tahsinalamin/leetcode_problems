@@ -1,5 +1,6 @@
 """
-Given a collection of distinct integers, return all possible permutations.
+Author: Sikder Tahsin Al-Amin
+Problem: Given a collection of distinct integers, return all possible permutations.
 
 Input: [1,2,3]
 Output:
@@ -24,7 +25,3 @@ def permute(nums):
             print(l)
 
     return l
-
-
-nums=[1,2,3]
-print("output:",permute(nums))
