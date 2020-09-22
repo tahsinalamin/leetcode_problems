@@ -1,5 +1,6 @@
 """
-Given two binary trees, write a function to check if they are the same or not.
+Author: Sikder Tahsin Al-Amin
+Problem: Given two binary trees, write a function to check if they are the same or not.
 input: [1,2,3] [1,2,3]
 output: True
 """
