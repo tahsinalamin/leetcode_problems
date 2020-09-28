@@ -22,8 +22,8 @@ class Solution:
             return False
         if a.val != b.val:
             return False
-        outer_valid = self.helper(a.left,a.right)
-        inner_valid = self.helper(a.right,a.left)
+        outer_valid = self.helper(a.left,b.right)
+        inner_valid = self.helper(a.right,b.left)
         return outer_valid and inner_valid
 
 
