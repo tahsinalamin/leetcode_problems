@@ -1,4 +1,6 @@
-"""
+""" 
+Author: Sikder Tahsin Al Amin
+Problem:
 Count the number of prime numbers less than a non-negative number, n.
 Input: 10
 Output: 4
@@ -20,7 +22,9 @@ def countPrimes(n):
         i = i+1
     return count
 
-def countPrimes2(self, n): ##from net
+#Another Solution (from net)
+
+def countPrimes2(self, n):
     if n <= 2:
         return 0
     res = [True] * n
@@ -30,6 +34,3 @@ def countPrimes2(self, n): ##from net
             for j in range(2, (n-1)//i+1):
                 res[i*j] = False
     return sum(res)
-
-n = 3
-print("output:",countPrimes(n))
