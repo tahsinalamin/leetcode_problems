@@ -1,5 +1,6 @@
 """
-Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+Author: Sikder Tahsin Al Amin
+Problem: Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 Input: 28
 Output: "AB"
 """
@@ -22,6 +23,3 @@ def convertToTitle(n):
         else:
             s=str(d.get(m))+s
     return s
-
-n = 26
-print("output: ",convertToTitle(n))
