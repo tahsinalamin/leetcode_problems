@@ -1,4 +1,6 @@
 """
+Author: Sikder Tahsin Al Amin
+Problem: 
 Reverse bits of a given 32 bits unsigned integer.
 Input: 00000010100101000001111010011100
 Output: 00111001011110000010100101000000
