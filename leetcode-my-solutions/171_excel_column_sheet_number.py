@@ -1,5 +1,6 @@
 """
-Given a column title as appear in an Excel sheet, return its corresponding column number.
+Author: Sikder Tahsin Al Amin
+Problem: Given a column title as appear in an Excel sheet, return its corresponding column number.
 Input: "AB"
 Output: 28
 """
@@ -16,6 +17,3 @@ def titleToNumber(s):
             value = value + (column.get(s[i])*26**(len(s)-i-1))
             print("else:",value)
     return value
-
-s="AAA"
-print("ans: ",titleToNumber(s))
