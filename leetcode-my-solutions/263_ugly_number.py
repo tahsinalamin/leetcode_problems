@@ -1,4 +1,6 @@
 """
+Author: Sikder Tahsin Al Amin
+Problem:
 Write a program to check whether a given number is an ugly number.
 Ugly numbers are positive numbers whose prime factors only include 2, 3, 5.
 Input: 6
@@ -48,6 +50,3 @@ def isUgly3(num): ##from net
     if num == 1:
         return True
     return False
-
-num = -5
-print("output=",isUgly2(num))
