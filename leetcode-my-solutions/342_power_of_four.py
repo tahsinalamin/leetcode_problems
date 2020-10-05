@@ -1,5 +1,7 @@
 """
-Given an integer, write a function to determine if it is a power of two.
+Author: Sikder Tahsin Al Amin
+Problem:
+Given an integer, write a function to determine if it is a power of four.
 Input: 16
 Output: true
 """
@@ -13,5 +15,12 @@ def isPowerOfFour(n):
     return False
 
 
-n =168
-print("output:",isPowerOfFour(n))
+### Another method
+def isPowerOfFour2(n):
+    if n<=0:
+        return False
+    while(n>0):
+        if n%4!=0:
+            return False
+        n=n/4
+    return True
