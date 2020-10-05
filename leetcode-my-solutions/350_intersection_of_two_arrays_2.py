@@ -1,4 +1,6 @@
 """
+Author: Sikder Tahsin Al Amin
+Problem:
 Given two arrays, write a function to compute their intersection.
 Input: nums1 = [1,2,2,1], nums2 = [2,2]
 Output: [2,2]
@@ -23,6 +25,12 @@ def intersect(nums1, nums2):
             i = i+1
     return intersect
 
-nums1 = [1,2,2,1]
-nums2 = [2,2]
-print("output:",intersect(nums1,nums2))
+
+##Alternate solution - easy but higher complexity
+def intersect2(nums1, nums2):
+    intersect = []
+    for i in nums1:
+        if i in nums2:
+            intersect.append(i)
+            nums2.remove(i)                
+    return intersect
