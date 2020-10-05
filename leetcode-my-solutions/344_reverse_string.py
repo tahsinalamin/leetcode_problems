@@ -8,10 +8,4 @@ def reverseString(s):
         temp = s[i]
         s[i]=s[len(s)-1-i]
         s[len(s)-1-i]=temp
-    print(s)
-
-
-
-
-s = ["H","a","n","n","a","h"]
-print("output:",reverseString(s))
+    return s
