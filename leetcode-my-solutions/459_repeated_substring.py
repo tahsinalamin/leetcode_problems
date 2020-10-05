@@ -1,4 +1,6 @@
 """
+Author: Sikder Tahsin Al Amin
+Problem:
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
 Input: "abab"
 Output: True
@@ -35,7 +37,3 @@ def repeatedSubstringPattern2(s: str) -> bool:
                 if sub_s * (N // i) == s:
                     return True
         return False
-
-s= "abcabcabcabc"
-print("output=",repeatedSubstringPattern(s))
-print("output=",repeatedSubstringPattern2(s))
