@@ -13,15 +13,10 @@ def reverseVowels(s):
             v.append(s[i])
             pos_vowel.append(i)
     v=v[::-1] #reversing
-    print(v)
+    #print(v)
     for i in range(0,len(pos_vowel)):
         s[pos_vowel[i]]=v[i]
     rs=""
     for i in s:
         rs=rs+i
     return rs         
-
-
-
-s="aA"
-print("output:",reverseVowels(s))
